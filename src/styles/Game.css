@@ -1,0 +1,40 @@
+.Game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Previous-Word {
+    font-size: calc(10px + 4vmin);
+    font-weight: bold;
+    color: gray;
+}
+
+.Down-Arrow {
+    font-size: calc(10px + 4vmin);
+}
+
+.Description {
+    font-size: calc(10px + 2vmin);
+    color: gray;
+}
+
+.Next-Word {
+    font-size: calc(10px + 6vmin);
+    font-weight: bold;
+}
+
+.Animation {
+    margin: 0;
+    font-size: 15rem;
+}
+
+.Success {
+    color: #8cd460;
+}
+.Fail {
+    color: #ff8181;
+}
